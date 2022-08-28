@@ -1,0 +1,40 @@
+
+body{
+  font-family:sans-serif;
+}
+.container{ 
+    width: 1200px;
+    height: 300px;
+    background-color:rgb(0, 0, 0);
+    margin-left: 10rem;
+    margin-top: 10rem; 
+    position: absolute;
+}
+.panel{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 0 3rem 0 9rem;
+    background-color: #1F1F1F; 
+}
+.time{
+    color: white;
+    font-weight: bolder;
+    background-color: #1F1F1F; 
+    font-size: 40px; 
+    margin-top: 2rem; 
+}
+
+#charge{
+    width: 10%;
+    height: 10%;
+    background-color: #4B4B4B;
+    position: relative;
+    bottom: 61%;
+    left: 69%; 
+    width: 20%;
+    height: 28%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    opacity: 0.6    ;  
+}
