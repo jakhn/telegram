@@ -5,9 +5,10 @@ body{
 .container{ 
     width: 1200px; 
     background-color:rgb(0, 0, 0);
-    margin-left: 10rem;
+    margin-left: 20rem;
     margin-top: 10rem; 
     position: absolute;
+    padding-bottom: 1rem;
 }
 .panel{ 
     display: flex;
@@ -46,7 +47,7 @@ body{
 .options{
     margin-top: 3rem; 
     background-color: #1F1F1F; 
-    padding: 2rem 6rem 1rem 6rem; 
+    padding: 0 6rem 0 6rem; 
     display:flex; 
     flex-wrap: wrap;
     justify-content: space-between; 
@@ -62,8 +63,27 @@ span{
     width: 177px;
     height: 13px;
     background-color: #7DACD6;
-    position: relative;
-    top: 1rem;
+    position: relative; 
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+.users{
+    padding: 1rem 3rem 0 3rem;
+    background-color: #1F1F1F;
+    margin-top: 0.5rem;
+}
+
+.avt{
+    border-radius: 50%;
+    width: 15%;
+}
+
+.first-user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+
+.user-name{
+    padding:2rem 0 0 2rem;
 }
